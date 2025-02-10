@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    text-align: center;
+    /* background: radial-gradient(circle, lightgreen, darkgreen); */
+    /* background: linear-gradient(90deg, rgb(54, 206, 54), rgb(19, 66, 19)); */
+    background: radial-gradient(circle, #23d01439, #243602);
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:5vh ;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 20vh;
+    box-shadow: 0px 0px 10px rgb(11, 112, 2);
+    border: none;
+    font-size: 5vmin;
+    color: red;
+}
+.box:hover{
+    background-color: rgba(39, 214, 39, 0.419);
+}
+.box:active{
+    background-color: rgb(8, 129, 70);
+}
+.or{
+    font-size: 4vh;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Reset{
+    height: 5vmin;
+    width: 20vmin;
+    font-size: 2.5vmin;
+    
+    border-radius: 1.5vmin;
+    background-color: rgba(33, 133, 33, 0.545);
+    color: white;
+}
+#newgame{
+    height: 5vmin;
+    width: 20vmin;
+    font-size: 2.5vmin;
+    border-radius: 1.5vmin;
+    background-color: rgba(33, 133, 33, 0.545);
+    color: white;
+}
+#Reset:active{
+    background-color: rgb(8, 129, 70) ;
+}
+#Reset:hover{
+    background-color: rgba(39, 214, 39, 0.419) ;
+}
+#msg{
+    color: aquamarine;
+    font-size: 5vmin;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
+}
